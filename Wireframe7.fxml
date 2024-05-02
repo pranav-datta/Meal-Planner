@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="251.0" layoutY="69.0" text="My Recipes">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="506.0" layoutY="42.0" mnemonicParsing="false" text="LOG OFF" />
+      <Button layoutX="29.0" layoutY="42.0" mnemonicParsing="false" text="BACK" />
+      <Label alignment="CENTER" prefHeight="42.0" prefWidth="600.0" text="Meal Planner">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <TableView layoutX="133.0" layoutY="125.0" prefHeight="200.0" prefWidth="335.0">
+        <columns>
+          <TableColumn editable="false" prefWidth="62.0" text="ID" />
+          <TableColumn editable="false" prefWidth="121.0" text="NAME" />
+            <TableColumn editable="false" prefWidth="151.0" text="AVG RATING" />
+        </columns>
+      </TableView>
+      <Button layoutX="199.0" layoutY="125.0" mnemonicParsing="false" text="/\" />
+      <Button layoutX="285.0" layoutY="125.0" mnemonicParsing="false" text="\\/" />
+      <Button layoutX="436.0" layoutY="125.0" mnemonicParsing="false" text="\\/" />
+      <Button layoutX="326.0" layoutY="125.0" mnemonicParsing="false" text="/\" />
+   </children>
+</Pane>

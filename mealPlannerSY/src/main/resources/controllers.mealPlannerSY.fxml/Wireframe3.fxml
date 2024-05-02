@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" prefHeight="42.0" prefWidth="600.0" text="Meal Planner">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Button layoutX="493.0" layoutY="42.0" mnemonicParsing="false" text="LOG OFF" />
+      <Label layoutX="234.0" layoutY="69.0" text="Home Selection">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="91.0" layoutY="122.0" mnemonicParsing="false" prefHeight="160.0" prefWidth="172.0" text="CONTRIBUTOR" />
+      <Button layoutX="321.0" layoutY="122.0" mnemonicParsing="false" prefHeight="160.0" prefWidth="172.0" text="CHEF" />
+   </children>
+</Pane>
